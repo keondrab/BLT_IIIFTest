@@ -1,0 +1,32 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://keondrab.github.io/BLT_IIIFTest/manifests/manifest.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Black Lunch Table - NC Artist Table" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/02895fd7-478e-4451-88c4-0bde2804efd6/canvas/de88c5cf-a954-40a8-acfe-f717c6f46bd2",
+    "type" : "Canvas",
+    "duration" : 4207.595102,
+    "label" : {
+      "en" : [ "NorthCarolina_ArtistsTable" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/02895fd7-478e-4451-88c4-0bde2804efd6/canvas/de88c5cf-a954-40a8-acfe-f717c6f46bd2/annotation-page/498e9a37-5be5-49e4-bc8f-3e5a383c3e54",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/02895fd7-478e-4451-88c4-0bde2804efd6/annotation/d9e021ae-468f-476c-8cc1-d6e9f30bb0d9",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/02895fd7-478e-4451-88c4-0bde2804efd6/canvas/de88c5cf-a954-40a8-acfe-f717c6f46bd2",
+        "body" : {
+          "id" : "https://archive.org/download/GSO100415PT5/GSO_100415_PT5.mp3",
+          "type" : "Sound",
+          "format" : "audio/mp4",
+          "duration" : 4207.595102
+        }
+      } ]
+    } ]
+  } ]
+}
