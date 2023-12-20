@@ -1,0 +1,66 @@
+{
+  "id" : "https://keondrab.github.io/BLT_IIIFTest/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in keondrab/BLT_IIIFTest project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 5462,
+    "id" : "https://keondrab.github.io/BLT_IIIFTest/images/ArtandFeminismFounders/canvas/",
+    "label" : {
+      "none" : [ "ArtandFeminismFounders" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://keondrab.github.io/BLT_IIIFTest/images/ArtandFeminismFounders/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://keondrab.github.io/BLT_IIIFTest/images/ArtandFeminismFounders/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 171,
+              "height" : 118
+            }, {
+              "width" : 342,
+              "height" : 235
+            }, {
+              "width" : 683,
+              "height" : 470
+            }, {
+              "width" : 1366,
+              "height" : 940
+            }, {
+              "width" : 2731,
+              "height" : 1880
+            }, {
+              "width" : 5462,
+              "height" : 3759
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 5462,
+            "@id" : "https://keondrab.github.io/BLT_IIIFTest/images/ArtandFeminismFounders",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 3759
+          } ],
+          "format" : "image/jpeg",
+          "width" : 5462,
+          "id" : "https://keondrab.github.io/BLT_IIIFTest/images/ArtandFeminismFounders/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 3759
+        },
+        "target" : "https://keondrab.github.io/BLT_IIIFTest/images/ArtandFeminismFounders/canvas/"
+      } ]
+    } ],
+    "height" : 3759
+  } ]
+}
